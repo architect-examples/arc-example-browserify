@@ -1,0 +1,5 @@
+@app
+browserify
+
+@http
+get /

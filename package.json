@@ -1,0 +1,28 @@
+{
+  "name": "arc-example-browserify",
+  "version": "1.0.0",
+  "description": "Example arc app to show how to use browserify in your arc project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./src/main.js -o ./public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arc-repos/arc-example-browserify.git"
+  },
+  "keywords": [],
+  "author": "@dam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arc-repos/arc-example-browserify/issues"
+  },
+  "homepage": "https://github.com/arc-repos/arc-example-browserify#readme",
+  "dependencies": {
+    "@architect/architect": "^4.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "canvas-splitter": "0.0.2",
+    "lut": "^0.2.0"
+  }
+}
